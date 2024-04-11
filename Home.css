@@ -742,9 +742,10 @@
   }
 
   .u-section-4 .u-image-7 {
+    height: 244px;
     object-position: 50% 0%;
     --radius: 28px;
-    margin-top: 37px;
+    margin-top: 79px;
     width: auto;
     margin-right: initial;
     margin-left: initial;
@@ -752,7 +753,7 @@
 
   .u-section-4 .u-group-1 {
     min-height: 268px;
-    margin-top: 23px;
+    margin-top: 53px;
     margin-bottom: 60px;
     width: auto;
     margin-right: initial;
