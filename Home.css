@@ -435,6 +435,7 @@
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
   margin-top: -82px;
   margin-bottom: 0;
+  background-position: 50% 50%;
 }
 
 .u-section-4 .u-image-4 {
@@ -616,7 +617,6 @@
   .u-section-4 .u-image-3 {
     width: 155px;
     height: 155px;
-    background-position: 50% 50%;
     --animation-custom_in-translate_x: 0px;
     --animation-custom_in-translate_y: 0px;
     --animation-custom_in-opacity: 0;
@@ -1623,4 +1623,9 @@
     padding-left: 30px;
     padding-right: 30px;
   }
+  #player {
+    width: 50%;
+    height: auto;
+    
+   }​
 }
