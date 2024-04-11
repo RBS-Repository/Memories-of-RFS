@@ -1624,8 +1624,15 @@
     padding-right: 30px;
   }
   #player {
-    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: transparent;
+    
     
     
    }​
+ 
 }
