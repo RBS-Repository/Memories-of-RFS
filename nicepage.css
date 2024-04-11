@@ -18038,6 +18038,15 @@ div.u-video,
   right: 0;
   left: 0;
 }
+#audio {
+  width: 10%;
+}
+.sound
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .u-offcanvas-unshifted-left .u-body > *,
 .u-offcanvas-unshifted-left.u-body > * {
   animation: menu-unshift-left 500ms normal forwards ease;
