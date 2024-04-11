@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="keywords" content="​Who We Are, ​We Drive Success To Your Everyday Business, ​Unlock Your Business Potential, ​Keep Updated&amp;amp; Don’t Miss Anything!, ​Achieve Your Goals With Us, ​What is a consultant for a company?, Contact Form">
     <meta name="description" content="">
-    <title>RFS V1</title>
+    <title>RFS V2</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="Home.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
@@ -29,6 +29,7 @@
 		"@type": "Organization",
 		"name": "",
 		"logo": "images/BudaquePNG1.png"
+    
 }</script>
     <meta name="theme-color" content="#f7eb2f">
     <meta property="og:title" content="Home">
@@ -108,13 +109,21 @@
           </div>
         </div>
       </div>
-      <audio controls autoplay>
+      
+      <audio id="sound" controls autoplay>
         <source src="Tears in Heaven.mp3" type="audio/mp3"> 
         <source src="Tears in Heaven.mp3" type="audio/mp3">
         Your browser does not support the audio element.
       </audio>
 
+    <script>
+       window.onload = function () {
+          document.getElementById ("sound").play();
+       }
+    </script>
+
     </section>
+    
 
  
 </body></html>
