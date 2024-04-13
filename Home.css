@@ -2278,16 +2278,37 @@
 }
 
 @media (max-width: 575px) {
+   .u-section-11 {
+    min-height: 1117px;
+  }
+
   .u-section-11 .u-layout-wrap-1 {
-    width: calc(((100% - 340px) / 2) + 340px);
+    width: 390px;
+    margin-left: auto;
   }
 
   .u-section-11 .u-image-1 {
     min-height: 402px;
   }
 
+  .u-section-11 .u-layout-cell-2 {
+    min-height: 715px;
+  }
+
   .u-section-11 .u-container-layout-2 {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .u-section-11 .u-text-1 {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .u-section-11 .u-text-2 {
+    width: auto;
+    margin-top: -25px;
+    margin-right: -56px;
+    margin-left: 116px;
   }
 }
