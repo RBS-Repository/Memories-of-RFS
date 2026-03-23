@@ -109,12 +109,16 @@ document.addEventListener("DOMContentLoaded", () => {
     // 4. Custom Lightbox
     const lightbox = document.getElementById('lightbox');
     const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxCaption = document.getElementById('lightbox-caption');
     const closeBtn = document.querySelector('.close-btn');
     const triggers = document.querySelectorAll('.lightbox-trigger');
 
     triggers.forEach(trigger => {
         trigger.addEventListener('click', function() {
             lightboxImg.src = this.src;
+            if(lightboxCaption) {
+                lightboxCaption.innerText = this.getAttribute('data-caption') || "";
+            }
             lightbox.classList.add('active');
             document.body.style.overflow = 'hidden'; // Lock scroll
         });
